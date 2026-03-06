@@ -1,26 +1,28 @@
 # Site settings
-title: RSE'25
-description: The 2025 Robotics Software Engineering (RSE25) meeting will be held in the University of Southern Denmark, Denmark from September 8th to September 11th 2025.
+title: RSE'26
+description: The 2026 Robotics Software Engineering (RSE26) meeting will be held in Barcelona, Spain. Dates TBA.
 
-url: http://rsemeeting.github.io/
-baseurl: '/rse2025'
+# GitHub Pages settings (project site)
+url: https://rsemeeting.github.io
+baseurl: '/rse2026'
 
 conference_title: "Robotics Software Engineering"
 conference_title_short: "RSE"
-year: "2025"
-venue: University of Southern Denmark, Denmark
+year: "2026"
+venue: Barcelona, Spain
 copyright: Conference Organizers
-dates:
-  meeting: September 9th - 11th 2025
-  application:
-    deadline: March 31st 2025
-    extension: May 4th 2025
-  notification: May 20th
-  registration:
-    deadline: August 31st
-    # extension: 
 
-# Color settings
+dates:
+  meeting: TBA (2026)
+  application:
+    deadline: TBA
+    extension: TBA
+  notification: TBA
+  registration:
+    deadline: TBA
+    # extension:
+
+# Color settings (keep for now; tweak later if you want a new palette)
 color:
   primary-dark: '#9d2246'
   title: '#ebf0f4'
@@ -28,20 +30,22 @@ color:
   accent: '#d50c2f'
 
 # conference data
+# keep the old background image until you add a Barcelona one to /assets/
 background-image: /assets/SDUFacade1.jpg
-directions-link: https://www.sdu.dk/en/om-sdu/sdu-campusser/odense
-map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.160141787527!2d10.42739377146104!3d55.362817647759464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d2050c9b4096b%3A0xf6c08db47a3ba1bf!2sSDU%20Syd%20%2F%20Hospital%20Nord%20(Odense%20Letbane)!5e1!3m2!1sen!2sdk!4v1756389077637!5m2!1sen!2sdk
-# https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4622.110226188615!2d10.429211171358444!3d55.368255940538376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d204fe2633dd5%3A0xa9604398da5c3e8a!2sUniversity%20of%20Southern%20Denmark!5e1!3m2!1sen!2sdk!4v1740484903562!5m2!1sen!2sdk
-organizer-email : rsemeeting@gmail.com
-application-page : https://forms.office.com/e/YT6MWPUxgr
-registration-page: https://www.conferencemanager.dk/rse2025
+
+# lightweight placeholders
+directions-link: https://www.google.com/maps/place/Barcelona,+Spain/
+map-embed: https://www.google.com/maps?q=Barcelona,+Spain&output=embed
+
+organizer-email: rsemeeting@gmail.com
+
+# Make buttons not point to stale external 2025 URLs yet:
+application-page: '#application'
+registration-page: '#registration'
 
 collections:
-  # - invited_speakers
   - organizers
   - sessions
-  # - papers
-  # - advisors
 
 # Build settings
 markdown: kramdown
