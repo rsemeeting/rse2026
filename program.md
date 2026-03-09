@@ -2,8 +2,10 @@
 layout: schedule
 ---
 
-## Tentative Program
+## Program
 
-The tentative plan for the schedule is to start on Monday, September 2nd at 11:00 until Thursday, September 5th 15:00. The program includes keynote talks, tours at industrial and research labs in and around Bremen, and social activities in the evening.
-Depending on the amount of participants, we might be able to offer additional activities or discussions for Friday, September 6th.
- 
+The program for RSE 2026 is currently being planned. Dates and full schedule are to be confirmed.
+
+The meeting will follow the established RSE format of three days including keynote talks, research presentations, discussions, an industry/partner visit, and social activities.
+
+{% include schedule.html %}

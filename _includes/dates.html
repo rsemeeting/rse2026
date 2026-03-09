@@ -21,11 +21,9 @@
                 {% endif %}
 
                 {% if site.application-page %}
-                {% unless page.applications %}
-                <blockquote><strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
-                </blockquote>
-                {%- endunless %}
-                <br><a href="{{site.application-page}}" target="_blank" class="btn {% unless page.applications %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
+                {% if page.applications %}
+                <br><a href="{{site.application-page}}" target="_blank" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
+                {% endif %}
                 {% endif %}
             </td>
         </tr>
@@ -48,13 +46,11 @@
                 {% endif %}
 
                 {% if site.registration-page %}
-                {% unless page.registration %}
-                # <blockquote><strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
-                </blockquote>
-                {%- endunless %}
-                <br><a href="{{site.registration-page}}" class="btn {% unless page.registration %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Register</a>
+                {% if page.registration %}
+                <br><a href="{{site.registration-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Register</a>
+                {% endif %}
                 {% else %}
-                Until September 9th
+                TBD
                 {% endif %}
             </td>
         </tr>
