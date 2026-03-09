@@ -1,25 +1,35 @@
-- name: Miguel Campusano
-  title:  Title
-  image: assets/Miguel.jpg
-  link: https://portal.findresearcher.sdu.dk/en/persons/miguel-campusano
-  affiliation: University of Southern Denmark, Denmark
-- name: Ulrik Pagh Schultz Lundquist
-  title:  Title
-  image: assets/Ulrik.jpg
-  link: https://portal.findresearcher.sdu.dk/da/persons/ulrik-pagh-schultz-lundquist
-  affiliation: University of Southern Denmark, Denmark
-- name: Luciana Rebelo
-  title:  Title
-  image: assets/luciana.png
-  link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/17315-rebelo-luciana
-  affiliation: Gran Sasso Science Institute, Italy
 - name: Thorsten Berger
-  title:  Title
-  link: https://se.ruhr-uni-bochum.de/thorsten-berger/
+  title: Professor
   image: assets/thorsten.jpg
+  link: https://se.ruhr-uni-bochum.de/thorsten-berger/
   affiliation: Ruhr University Bochum, Germany
-- name: Mikkel Baun Kjærgaard
-  title:  Title
-  image: assets/Mikkel.jpg
-  link: https://portal.findresearcher.sdu.dk/en/persons/mbkj
-  affiliation: University of Southern Denmark, Denmark
+- name: Sergi Fox Salmerón
+  title: Researcher
+  image: assets/placeholder.jpg
+  link: "#"
+  affiliation: Universitat Politècnica de Catalunya, Spain
+- name: Guillem Alenyà
+  title: Researcher
+  image: assets/placeholder.jpg
+  link: "#"
+  affiliation: Universitat Politècnica de Catalunya, Spain
+- name: Ricardo Diniz Caldas
+  title: Researcher
+  image: assets/placeholder.jpg
+  link: "#"
+  affiliation: Gran Sasso Science Institute, Italy
+- name: Sara Pettinari
+  title: Researcher
+  image: assets/placeholder.jpg
+  link: "#"
+  affiliation: Gran Sasso Science Institute, Italy
+- name: Gianluca Filippone
+  title: Researcher
+  image: assets/placeholder.jpg
+  link: "#"
+  affiliation: Gran Sasso Science Institute, Italy
+- name: Patrizio Pelliccione
+  title: Professor
+  image: assets/patrizio.jpg
+  link: https://www.patriziopelliccione.com/
+  affiliation: Gran Sasso Science Institute, Italy
