@@ -30,7 +30,7 @@ color:
   accent: '#d50c2f'
 
 # conference data
-# keep the old background image until you add a Barcelona one to /assets/
+# TODO: replace with a Barcelona/UPC image once available
 background-image: /assets/SDUFacade1.jpg
 
 # lightweight placeholders
