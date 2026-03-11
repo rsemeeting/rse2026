@@ -2,10 +2,10 @@
 layout: single
 venue:
   address: |
-    Universitat Politècnica de Catalunya
-    Barcelona
-    Spain
-  directions-link: https://www.google.com/maps/place/Barcelona,+Spain/
+    Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC
+    C/ Llorens i Artigas, 4-6
+    08028 Barcelona, Spain
+  directions-link: https://maps.google.com/?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial,+Llorens+i+Artigas+4,+Barcelona
 applications: false
 registration: false
 ---
