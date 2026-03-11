@@ -13,20 +13,20 @@
   image: assets/placeholder.jpg
   link: "#"
   affiliation: Universitat Politècnica de Catalunya, Spain
-- name: Ricardo Diniz Caldas
-  title: Researcher
-  image: assets/placeholder.jpg
-  link: "#"
+- name: Ricardo Caldas
+  title: Postdoctoral Researcher
+  image: https://www.gssi.it/media/k2/items/cache/6f961444f337ff0817da2eaf75cbd4f8_L.jpg
+  link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/25684-diniz-caldas-ricardo
   affiliation: Gran Sasso Science Institute, Italy
 - name: Sara Pettinari
-  title: Researcher
-  image: assets/placeholder.jpg
-  link: "#"
+  title: Postdoctoral Researcher
+  image: https://www.gssi.it/media/k2/items/cache/7e2c4bd929508025eec1713f3ac396e8_L.jpg
+  link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/25380-pettinari-sara
   affiliation: Gran Sasso Science Institute, Italy
 - name: Gianluca Filippone
-  title: Researcher
-  image: assets/placeholder.jpg
-  link: "#"
+  title: Postdoctoral Researcher
+  image: https://www.gssi.it/media/k2/items/cache/78017acb49808274be5236e8207c88d2_L.jpg
+  link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/25234-filippone-gianluca
   affiliation: Gran Sasso Science Institute, Italy
 - name: Patrizio Pelliccione
   title: Professor
