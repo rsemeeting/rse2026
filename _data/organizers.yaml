@@ -13,19 +13,19 @@
   image: assets/placeholder.jpg
   link: "#"
   affiliation: Universitat Politècnica de Catalunya, Spain
-- name: Ricardo Diniz Caldas
-  title: Researcher
-  image: assets/placeholder.jpg
+- name: Ricardo Caldas
+  title: Postdoctoral Researcher
+  image: assets/ricardo.jpg
   link: "#"
   affiliation: Gran Sasso Science Institute, Italy
 - name: Sara Pettinari
-  title: Researcher
-  image: assets/placeholder.jpg
+  title: Postdoctoral Researcher
+  image: assets/sara.jpg
   link: "#"
   affiliation: Gran Sasso Science Institute, Italy
 - name: Gianluca Filippone
-  title: Researcher
-  image: assets/placeholder.jpg
+  title: Postdoctoral Researcher
+  image: assets/gianluca.jpg
   link: "#"
   affiliation: Gran Sasso Science Institute, Italy
 - name: Patrizio Pelliccione
