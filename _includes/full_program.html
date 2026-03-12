@@ -1,0 +1,82 @@
+<!-- Schedule section -->
+
+<!-- Full program -->
+{% assign days = site.data.program.program_rse26 | group_by:"day" %}
+<div class="section" id="schedule">
+  <h3 class="center-align">Schedule</h3>
+  <div class="divider"></div>
+  <div class="row">
+    {% for day in days %}
+    <h4>{{day.name}}</h4>
+    {% assign day_sorted = day.items | sort:"start_time" %}
+    {% assign groups = day_sorted | group_by:"session" %}
+    {% for session in groups %}
+    <div class="session">
+
+    <div class="col s2 m2 l2 time-slot"><p><time>{{session.items[0].start_time}}</time> - <time>{{session.items[-1].end_time}}</time></p>
+    </div>
+    {% assign session_size = session.items | size %}
+    <div class="col s10 m10 l10">
+    {% if session_size > 1 %}
+      <ul class="collapsible expandable">
+        <li class="active">
+          <div class="collapsible-header">
+            <p><h5 class="session-title">{{ session.items[0].topic }}</h5><br></p>
+          </div>
+          <!-- <div style="padding-left: 1rem; margin: 0px;"><p style="margin: 0px;"><i class="material-icons">timer</i> {{ session_size | times: 25}} min</p></div> -->
+          <div class="collapsible-body">
+            <table class="schedule">
+              <tbody>
+                {% for talk in session.items %}
+                {% if {{talk.speaker }} %}
+                <tr>
+                  <th><time>{{talk.start_time}}</time></th>
+                  <!-- <th><time>{{talk.end_time}}</time></th> -->
+                  <td><b>{{ talk.speaker }}</b>
+                    {%- if {{talk.position}} -%}, {{ talk.position }}{% endif -%}
+                    {% if {{talk.affiliation}} %},<br> {{ talk.affiliation }}{% endif %}
+                  </td>
+                  <td style="text-align: justify;">
+                    <details>
+                      <summary><i class="talk-title">{{ talk.title }}</i></summary>
+                      {% if {{talk.abstract }} %}<b>Abstract: </b>{{ talk.abstract }} {% endif %}
+                    </details>
+                  </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </li>
+      </ul>
+    {% else %}
+      {% assign talk = session.items[0] %}
+      <div class="session-details">
+      <h5 class="session-title">{{ talk.topic }}</h5>
+      <!-- <div><i class="material-icons">timer</i> {{talk.duration}}</div> -->
+      {% case talk.topic %}
+        {% when "Coffee Break" %}
+        {% when "Lunch" %}
+        {% when "Round Table Discussions" %}
+        {% when "Keynote", "Welcome talk" %}
+          <h6 class="speaker">{{ talk.speaker }}</h6>
+            <p class="speaker-bio">{{ talk.position }},<br>
+            {{ talk.affiliation }}</p>
+            {% if {{talk.bio}} %}<p style="text-align: justify;"><b>Bio:</b> {{ talk.bio }}</p>{% endif %}
+            <p style="text-align: justify;"><b class="talk-title">{{ talk.title }}</b><br>
+            <span><b>Abstract</b>: {{ talk.abstract }}</span>
+            </p>
+        {% else %}
+          {% if {{talk.abstract }} -%}
+            <p>{{ talk.abstract }}</p>
+          {% endif %}
+      {% endcase %}
+      </div>
+    {% endif %}
+    </div>
+    </div>
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
