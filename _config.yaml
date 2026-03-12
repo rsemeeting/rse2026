@@ -1,6 +1,6 @@
 # Site settings
 title: RSE'26
-description: "The 2026 Robotics Software Engineering (RSE'26) meeting will be held at IRI (CSIC-UPC), Barcelona, Spain. Proposed dates: September 7\u20139, 2026."
+description: "The 2026 Robotics Software Engineering (RSE'26) meeting will be held at IRI (CSIC-UPC), Barcelona, Spain. Proposed dates: September 7\u201310, 2026."
 
 # GitHub Pages settings (project site)
 url: https://rsemeeting.github.io
@@ -13,7 +13,7 @@ venue: Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC, Barcelon
 copyright: Conference Organizers
 
 dates:
-  meeting: September 7–9, 2026
+  meeting: September 7–10, 2026
   application:
     deadline: April 24, 2026
     # extension:
