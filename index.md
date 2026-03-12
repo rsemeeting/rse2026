@@ -16,7 +16,7 @@ registration: false
 
 The format of RSE'26 meeting consists of short presentations from each participant with enough time for discussion. Researchers at different career stages are welcome to present their research, provide and get feedback from peers, engage into discussions and establish new collaborations. RSE is not a publication venue. Participants can present previously published work as well as unpublished work, including early ideas and work in progress, can be a published paper, an idea, a master thesis, etc. The main point is to encourage discussions, to give and receive feedback, and to create a network for new collaborations.
 
-RSE'26 will take place at the [Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC](https://www.iri.upc.edu/), Barcelona, Spain. The proposed dates are **September 7–9, 2026** (subject to confirmation).
+RSE'26 will take place at the [Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC](https://www.iri.upc.edu/), Barcelona, Spain. The proposed dates are **September 7–9, 2026**.
 RSE'26 does not require any paper submission, however, an abstract about the research that is to be presented is required to apply. 
  
 

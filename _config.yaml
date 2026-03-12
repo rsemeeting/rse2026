@@ -13,7 +13,7 @@ venue: Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC, Barcelon
 copyright: Conference Organizers
 
 dates:
-  meeting: September 7–9, 2026 (proposed)
+  meeting: September 7–9, 2026
   application:
     deadline: April 24, 2026
     # extension:
@@ -31,7 +31,7 @@ color:
 
 # conference data
 # TODO: replace with a Barcelona/UPC image once available
-background-image: /assets/SDUFacade1.jpg
+background-image: /assets/Barcelona-banner.jpg
 
 # IRI CSIC-UPC, C/ Llorens i Artigas, 4-6, 08028 Barcelona
 directions-link: https://maps.google.com/?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial,+Llorens+i+Artigas+4,+Barcelona
