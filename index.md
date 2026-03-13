@@ -50,7 +50,11 @@ The meeting will follow the established RSE format of three days including keyno
 
 ## Travel Information
 
-Travel and accommodation information for Barcelona coming soon.
+RSE'26 will be held at the **Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC**, C/ Llorens i Artigas, 4-6, 08028 Barcelona, Spain.
+
+Information on how to reach Barcelona and the venue will be added once dates are confirmed. In the meantime, a curated list of **[accommodation options near IRI](travel-information)** is already available, including university residences and hotels.
+
+For any urgent queries contact the organizers at [rsemeeting@gmail.com](mailto:rsemeeting@gmail.com).
 
 ## Privacy Policy
 
