@@ -28,8 +28,8 @@
   image: assets/gianluca.jpg
   link: "#"
   affiliation: Gran Sasso Science Institute, Italy
-- name: Patrizio Pelliccione
-  title: Professor
-  image: assets/patrizio.jpg
-  link: https://www.patriziopelliccione.com/
-  affiliation: Gran Sasso Science Institute, Italy
+# - name: Patrizio Pelliccione
+#   title: Professor
+#   image: assets/patrizio.jpg
+#   link: https://www.patriziopelliccione.com/
+#   affiliation: Gran Sasso Science Institute, Italy
