@@ -13,7 +13,7 @@ venue: Institut de Robòtica i Informàtica Industrial (IRI), CSIC-UPC, Barcelon
 copyright: Conference Organizers
 
 dates:
-  meeting: September 7–10, 2026
+  meeting: September 7-10, 2026
   application:
     deadline: April 24, 2026
     # extension:
@@ -40,7 +40,7 @@ map-embed: https://www.google.com/maps?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A
 organizer-email: rsemeeting@gmail.com
 
 # Make buttons not point to stale external 2025 URLs yet:
-application-page: '#application'
+application-page: 'https://forms.gle/yU71QGLfoQbw7b1X8'
 registration-page: '#registration'
 
 collections:

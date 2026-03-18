@@ -9,7 +9,16 @@
                 <p class="banner-subheading right-align">{{ site.venue }}<br>
                     {{ site.dates.meeting }}</p>
                 <br />
+                {% if site.application-page %}
+                {% if page.application %}
+                <a href="{{ site.application-page }}" class="btn-large">Apply Now</a>
+                {% endif %}
+                {% endif %}
+                {% if site.registration-page %}
+                {% if page.registration %}
                 <a href="{{ site.registration-page }}" class="btn-large">Register Now</a>
+                {% endif %}
+                {% endif %}
                 <br />
             </div>
         </div>
