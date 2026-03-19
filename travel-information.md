@@ -10,7 +10,7 @@ C/ Llorens i Artigas, 4-6, 08028 Barcelona, Spain.
 Information on how to reach Barcelona and the venue will be added once dates are confirmed.
 In the meantime, the accommodation options below are already available.
 
-For any urgent queries contact the organizers at [rsemeeting@gmail.com](mailto:rsemeeting@gmail.com).
+For any urgent queries contact the organizers at [sfoix@iri.upc.edu](mailto:sfoix@iri.upc.edu).
 
 ---
 

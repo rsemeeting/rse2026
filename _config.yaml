@@ -37,7 +37,7 @@ background-image: /assets/Barcelona-banner.jpg
 directions-link: https://maps.google.com/?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial,+Llorens+i+Artigas+4,+Barcelona
 map-embed: https://www.google.com/maps?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial+IRI+CSIC+UPC+Barcelona&output=embed
 
-organizer-email: rsemeeting@gmail.com
+organizer-email: sfoix@iri.upc.edu
 
 # Make buttons not point to stale external 2025 URLs yet:
 application-page: 'https://forms.gle/yU71QGLfoQbw7b1X8'
