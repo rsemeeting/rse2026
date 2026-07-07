@@ -21,9 +21,11 @@
                 {% endif %}
 
                 {% if site.application-page %}
-                {% if page.applications %}
-                <br><a href="{{site.application-page}}" target="_blank" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
-                {% endif %}
+                {% unless page.applications %}
+                <blockquote><strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
+                </blockquote>
+                {%- endunless %}
+                <br><a href="{{site.application-page}}" target="_blank" class="btn {% unless page.applications %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
                 {% endif %}
             </td>
         </tr>
