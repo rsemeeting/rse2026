@@ -14,16 +14,20 @@
         <tr>
             <td><strong>Application</strong></td>
             <td>{% if site.dates.application.extension %}
-                <s>{{site.dates.application.deadline}}</s><br />
+                <s>{{site.dates.application.deadline}}</s><br>
                 <strong>Extended deadline</strong>: {{site.dates.application.extension}}
                 {% else %}
                 Deadline: {{site.dates.application.deadline}}
                 {% endif %}
+                <br>
 
                 {% if site.application-page %}
-                {% if page.applications %}
-                <br><a href="{{site.application-page}}" target="_blank" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
-                {% endif %}
+                {% unless page.applications %}
+                <blockquote>
+                   <strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
+                </blockquote>
+                {%- endunless %}
+                <br><a href="{{site.application-page}}" target="_blank" class="btn {% unless page.applications %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
                 {% endif %}
             </td>
         </tr>
@@ -42,15 +46,20 @@
                 <s>{{site.dates.registration.deadline}}</s>
                 <b>Extended deadline</b>: {{site.dates.registration.extension}}
                 {% else %}
-                {{site.dates.registration.deadline}}
+                <strong>Early Bird registration fee (€260)</strong>: Before {{site.dates.registration.early_bird}}<br>
+                <strong>Standard registration fee (€280)</strong>: After {{site.dates.registration.early_bird}}<br>
+                <strong>Deadline</strong>: {{site.dates.registration.deadline}}<br>
                 {% endif %}
 
                 {% if site.registration-page %}
-                {% if page.registration %}
-                <br><a href="{{site.registration-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Register</a>
-                {% endif %}
+                {% unless page.registration %}
+                <blockquote>
+                   <strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
+                </blockquote>
+                {%- endunless %}
+                <br><a href="{{site.registration-page}}" class="btn {% unless page.registration %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Register</a>
                 {% else %}
-                To be announced
+                Until September 9th
                 {% endif %}
             </td>
         </tr>

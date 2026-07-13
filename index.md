@@ -6,8 +6,8 @@ venue:
     C/ Llorens i Artigas, 4-6
     08028 Barcelona, Spain
   directions-link: https://maps.google.com/?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial,+Llorens+i+Artigas+4,+Barcelona
-applications: true
-registration: false
+applications: false
+registration: true
 ---
 
 ## About
@@ -29,7 +29,7 @@ RSE'26 does not require any paper submission, however, an abstract about the res
 
 ### Registration
 
-Due to organizational reasons, there is a limit of 50 participants. We will notify the selected participants shortly after the deadline. Registration details coming soon.
+Due to organizational constraints, participation is limited to 50 participants. We will notify the selected participants shortly after the deadline. The Early Bird registration fee is €260 per participant (for registrations completed before August 15th), and the Standard Fee is €280 per participant (for registrations completed between August 15th and August 31st). The registration fee covers lunch, coffee and snacks during breaks, the RSE dinner, and the partner site visit on Tuesday.
 
 <div class="divider"></div>
 

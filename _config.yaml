@@ -19,7 +19,8 @@ dates:
     extension: June 7th, 2026
   notification: July 1st, 2026
   registration:
-    deadline: TBA
+    early_bird: August 15th
+    deadline: August 31st
     # extension:
 
 # Color settings (keep for now; tweak later if you want a new palette)
@@ -41,7 +42,7 @@ organizer-email: sfoix@iri.upc.edu
 
 # Make buttons not point to stale external 2025 URLs yet:
 application-page: 'https://forms.gle/yU71QGLfoQbw7b1X8'
-registration-page: '#registration'
+registration-page: 'https://forms.gle/qszxf4SWmdqrtYn48'
 
 collections:
   - organizers
