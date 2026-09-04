@@ -45,12 +45,12 @@ This talk will present techniques for reducing the cognitive distance between de
 ,Yoganata Kristanto,SDU Software Engineering,,,Program Comprehension Tool and Fault Tolerance Visualization for Collaborative Robots Program Execution ,"Previously, we developed dynamic visualization methods as a means to enhance the understanding of how Cobotic programs execute in run time. We aimed to provide deeper insights into the interactions between robots and humans during program execution, enabling users to better comprehend the program flow, identify potential issues, and optimize performance for more efficient and effective Collaborative Robots operations. In this work, we performed an evaluation of our program comprehension tool. The evaluation was done by participants with different backgrounds. The result of the evaluation and lessons learned through the study is then discussed. Furthermore, we’ll show another extension of our tool to show the capable limits of the program through visualization of the tolerances. ","Ethics, Formalisms & Developer Tools",D2.S2,Tuesday 8th,12:20,20,12:40
 ,,,,,Lunch,Parc Científic,Lunch,D2.LU,Tuesday 8th,13:00,60,14:00
 ,,,,,Metro to PAL Robotics,Metro to PAL Robotics,Travel,D2.TR,Tuesday 8th,14:15,60,15:15
-,,,,,Coffee Break,,Coffee Break,D2.CB2,Tuesday 8th,15:15,15,15:30
+,,,,,Coffee Break,PAL Robotics,Coffee Break,D2.CB2,Tuesday 8th,15:15,15,15:30
 ,Luca Marchionni,,,,TBD,,Keynote,D2.K2,Tuesday 8th,15:30,45,16:00
-,,,,,PAL Robotics Visit,PAL Robotics Visit,Partner Visit,D2.PV,Tuesday 8th,16:00,30,16:30
-,,,,,Metro to Xocolata Museum,,Travel,D2.TR2,Tuesday 8th,17:00,45,17:30
-,,,,,Networking - Xocolata Museum,,Networking,D2.N,Tuesday 8th,17:00,60,19:00
-,,,,,Social Dinner - Xiroi Restaurant,,Social Dinner,D2.DI,Tuesday 8th,19:30,180,22:00
+,,,,,PAL Robotics Visit,PAL Robotics,Partner Visit,D2.PV,Tuesday 8th,16:00,30,16:30
+,,,,,Metro to Xocolata Museum,Metro to Xocolata Museum,Travel,D2.TR2,Tuesday 8th,16:30,45,17:00
+,,,,,Networking - Xocolata Museum,Xocolating Team Building at Xocolata Museum,Networking,D2.N,Tuesday 8th,17:00,60,19:00
+,,,,,Social Dinner - Xiroi Restaurant,Xiroi Restaurant,Social Dinner,D2.DI,Tuesday 8th,19:30,180,22:00
 ,,,,,Welcome / Day Overview,,Welcome,D3.W,Wednesday 9th,09:30,15,09:45
 ,Usama Saqib,IT University of Copenhagen,,,Passive 3-D Acoustic Localisation of Underwater Sources Using MUSIC-Guided Matched Filtering on a Wave-Perturbed Hydrophone Array,"This framework addresses the problem of passive 3-D localization for underwater vehicles using a floating uniform rectangular array (URA) of hydrophones. The target transmits a wideband linear frequency-modulated (LFM) chirp. Because the array is subject to six-degree-of-freedom (6-DOF) wave-induced motion, standard beamforming degrades due to dynamic phase disruptions and Doppler scaling. 
 
