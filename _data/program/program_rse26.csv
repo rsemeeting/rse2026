@@ -45,13 +45,12 @@ This talk will present techniques for reducing the cognitive distance between de
 ,Yoganata Kristanto,SDU Software Engineering,,,Program Comprehension Tool and Fault Tolerance Visualization for Coltive Robots Program Execution ,"Previously, we developed dynamic visualization methods as a means to enhance the understanding of how Cobotic programs execute in run time. We aimed to provide deeper insights into the interactions between robots and humans during program execution, enabling users to better comprehend the program flow, identify potential issues, and optimize performance for more efficient and effective Collaborative Robots operations. In this work, we performed an evaluation of our program comprehension tool. The evaluation was done by participants with different backgrounds. The result of the evaluation and lessons learned through the study is then discussed. Furthermore, we’ll show another extension of our tool to show the capable limits of the program through visualization of the tolerances. ","Ethics, Formalisms & Developer Tools",D2.S2,Tuesday 8th,12:20,20,12:40
 ,,,,,,Parc Científic,Lunch,D2.LU,Tuesday 8th,13:00,60,14:00
 ,,,,,,Metro to PAL Robotics,Travel,D2.TR,Tuesday 8th,14:15,60,15:15
-,,,,,,PAL Robotics,Welcome,D3.W,Tuesday 8th,15:15,15,15:30
-,,,,,,PAL Robotics,Coffee Break,D2.CB2,Tuesday 8th,15:15,15,15:30
+,,,,,,PAL Robotics,Welcome + Coffee Break,D3.W,Tuesday 8th,15:15,15,15:30
 ,Luca Marchionni,,,,TBD,,Keynote,D2.K2,Tuesday 8th,15:30,45,16:00
 ,,,,,,,Visit to PAL Robotics,D2.PV,Tuesday 8th,16:00,30,16:30
 ,,,,,,Walk to Xocolata Museum,Travel,D2.TR2,Tuesday 8th,16:30,45,17:00
 ,,,,,,Xocolating Team Building at Xocolata Museum,Networking,D2.N,Tuesday 8th,17:00,60,19:00
-,,,,,,Metro to Xiroi Restaurant,Travel,D2.TR,Tuesday 8th,19:00,30,19:30
+,,,,,,Metro to Xiroi Restaurant,Travel,D2.TR3,Tuesday 8th,19:00,30,19:30
 ,,,,,,Xiroi Restaurant,Social Dinner,D2.DI,Tuesday 8th,19:30,150,22:00
 ,,,,,,,Welcome,D3.W,Wednesday 9th,09:30,15,09:45
 ,Usama Saqib,IT University of Copenhagen,,,Passive 3-D Acoustic Localisation of Underwater Sources Using MUSIC-Guided Matched Filtering on a Wave-Perturbed Hydrophone Array,"This framework addresses the problem of passive 3-D localization for underwater vehicles using a floating uniform rectangular array (URA) of hydrophones. The target transmits a wideband linear frequency-modulated (LFM) chirp. Because the array is subject to six-degree-of-freedom (6-DOF) wave-induced motion, standard beamforming degrades due to dynamic phase disruptions and Doppler scaling. 
