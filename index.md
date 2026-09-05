@@ -7,7 +7,7 @@ venue:
     08028 Barcelona, Spain
   directions-link: https://maps.google.com/?q=Institut+de+Rob%C3%B2tica+i+Inform%C3%A0tica+Industrial,+Llorens+i+Artigas+4,+Barcelona
 applications: false
-registration: true
+registration: false
 ---
 
 ## About
