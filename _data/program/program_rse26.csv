@@ -1,7 +1,7 @@
 ID,speaker,affiliation,position,bio,title,abstract,topic,session,day,start_time,duration,end_time
 ,,,,,,LabORA entrance,Check-in & Registration,D1.CH,Monday 7th,09:00,15,09:15
 ,,,,,,LabORA,Welcome & Opening Remarks,D1.W,Monday 7th,09:15,15,09:30
-,Guillem Alenya,,,,Software for Assistive Robotics,,Keynote,D1.K1,Monday 7th,09:30,45,10:15
+,Guillem Alenya,Institut de Robòtica i Informàtica Industrial,,,Software for Assistive Robotics,,Keynote,D1.K1,Monday 7th,09:30,45,10:15
 ,,,,,,Catering,Breakfast,D1.CB1,Monday 7th,10:15,25,10:40
 ,Nils Chur,Ruhr University Bochum,,,Early-Stage Testing for ROS Controllers: Exploring LLM Capabilities,"As robotic systems become increasingly deployed in safety-critical environments, such as autonomous vehicles and medical robotics, reliable controller code is essential. Currently, validation often relies on simulation or late-stage field testing, which tends to be costly and prone to uncovering defects only after significant development effort has been invested. Early-stage testing offers a promising way to catch bugs sooner, but it remains difficult. Unlike traditional software, robotic controllers exhibit dynamic behavior driven by continuous feedback loops, making them difficult to test with standard static methods.
 
@@ -43,7 +43,7 @@ We present a study of bugs in behavior tree models. We mined over 9,000 commits 
 ,,,,,,Parc Científic,Lunch,D2.LU,Tuesday 8th,13:00,60,14:00
 ,,,,,,Metro to PAL Robotics,Metro,D2.TR,Tuesday 8th,14:15,60,15:15
 ,,,,,,PAL Robotics,Welcome + Coffee Break,D3.W,Tuesday 8th,15:15,15,15:30
-,Luca Marchionni,,,,TBD,,Keynote,D2.K2,Tuesday 8th,15:30,40,16:10
+,Luca Marchionni,PAL Robotics,,,TBD,,Keynote,D2.K2,Tuesday 8th,15:30,40,16:10
 ,,,,,,,Visit to PAL Robotics,D2.PV,Tuesday 8th,16:10,20,16:30
 ,,,,,,Walk to Xocolata Museum,Walk,D2.TR2,Tuesday 8th,16:30,45,17:00
 ,,,,,,Xocolating Team Building at Xocolata Museum,Networking,D2.N,Tuesday 8th,17:00,60,19:00
