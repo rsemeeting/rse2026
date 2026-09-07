@@ -43,7 +43,7 @@ We present a study of bugs in behavior tree models. We mined over 9,000 commits 
 ,,,,,,Parc Científic,Lunch,D2.LU,Tuesday 8th,13:00,60,14:00
 ,,,,,,Metro to PAL Robotics,Metro,D2.TR,Tuesday 8th,14:15,60,15:15
 ,,,,,,PAL Robotics,Welcome + Coffee Break,D3.W,Tuesday 8th,15:15,15,15:30
-,Luca Marchionni,PAL Robotics,,,TBD,,Keynote,D2.K2,Tuesday 8th,15:30,40,16:10
+,Luca Marchionni,PAL Robotics,,,Towards General Purpose Robots: Advancing Intelligence and Mobility with AI ,This keynote presents PAL Robotics’ approach to Physical Embodied AI, from mobile manipulation with TIAGo Pro to humanoid locomotion with KANGAROO. Luca will explore ROS 2-based control, teleoperation and real-world data collection for robot learning, together with simulation, reinforcement learning, imitation learning and sim-to-real deployment, highlighting the main challenges towards more versatile and reliable general-purpose robots.,Keynote,D2.K2,Tuesday 8th,15:30,40,16:10
 ,,,,,,,Visit to PAL Robotics,D2.PV,Tuesday 8th,16:10,20,16:30
 ,,,,,,Walk to Xocolata Museum,Walk,D2.TR2,Tuesday 8th,16:30,45,17:00
 ,,,,,,Xocolating Team Building at Xocolata Museum,Networking,D2.N,Tuesday 8th,17:00,60,19:00
