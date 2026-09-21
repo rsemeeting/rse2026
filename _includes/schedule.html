@@ -66,6 +66,7 @@
                     {% if {{talk.affiliation}} %},<br> {{ talk.affiliation }}{% endif %}
                   </td>
                   <td style="text-align: justify;">
+                    {% if talk.presentation %}<div><a href="{{ talk.presentation }}">Presentation</a></div>{% endif %}
                     <details>
                       <summary><i class="talk-title">{{ talk.title }}</i></summary>
                       {% if {{talk.abstract }} %}<b>Abstract: </b>{{ talk.abstract }} {% endif %}
@@ -93,7 +94,7 @@
             <p class="speaker-bio">{{ talk.position }},<br>
             {{ talk.affiliation }}</p>
             {% if {{talk.bio}} %}<p style="text-align: justify;"><b>Bio:</b> {{ talk.bio }}</p>{% endif %}
-            <p style="text-align: justify;"><b class="talk-title">{{ talk.title }}</b><br>
+            <p style="text-align: justify;">{% if talk.presentation %}<a href="{{ talk.presentation }}">Presentation</a><br>{% endif %}<b class="talk-title">{{ talk.title }}</b><br>
             <span><b>Abstract</b>: {{ talk.abstract }}</span>
             </p>
         {% else %}
