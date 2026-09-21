@@ -20,6 +20,15 @@ RSE'26 will take place at the [Institut de Robòtica i Informàtica Industrial (
 RSE'26 does not require any paper submission, however, an abstract about the research that is to be presented is required to apply. 
  
 
+<div class="row">
+  <div class="col s12 center-align">
+    <figure>
+      <img class="responsive-img" src="{{ '/assets/RSE_Group_pic_PAL.jpeg' | prepend: site.baseurl }}" alt="RSE'26 participants during the visit to PAL Robotics">
+      <figcaption>RSE'26 participants during the visit to <a href="https://pal-robotics.com/">PAL Robotics</a>.</figcaption>
+    </figure>
+  </div>
+</div>
+
 ## Application
 
 > Please note that every participant needs to give a talk, this is the event rule.  
